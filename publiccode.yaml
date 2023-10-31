@@ -16,14 +16,14 @@ developmentStatus: 'development'
 softwareType: 'softwareAddon'
 
 description:
-	en:
-		genericName: 'OWC OpenPDD Sanitizer'
-  	shortDescription: 'WordPress plugin for sanitizing a OpenPDD installation with security best practices'
-  	longDescription: 'WordPress plugin for sanitizing a OpenPDD installation with security best practices'
-	nl:
-		genericName: 'OWC OpenPDD Sanitizer'
-		shortDescription: 'WordPress plugin voor het opschonen van OpenPDD installatie met best practices op het gebied van beveiliging'
-  	longDescription: 'WordPress plugin voor het opschonen van OpenPDD installatie met best practices op het gebied van beveiliging'
+  en:
+    genericName: 'OWC OpenPDD Sanitizer'
+    shortDescription: 'WordPress plugin for sanitizing a OpenPDD installation with security best practices'
+    longDescription: 'WordPress plugin for sanitizing a OpenPDD installation with security best practices'
+  nl:
+    genericName: 'OWC OpenPDD Sanitizer'
+    shortDescription: 'WordPress plugin voor het opschonen van OpenPDD installatie met best practices op het gebied van beveiliging'
+    longDescription: 'WordPress plugin voor het opschonen van OpenPDD installatie met best practices op het gebied van beveiliging'
 
 legal:
   license: 'EUPL-1.2'
