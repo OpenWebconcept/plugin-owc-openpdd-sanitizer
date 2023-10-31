@@ -7,13 +7,14 @@
 		"optimize-autoloader": true,
 		"sort-packages": true,
 		"allow-plugins": {
-			"composer/installers": true
+			"composer/installers": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
 		}
 	},
 	"authors": [
 		{
 			"name": "Yard | Digital Agency",
-			"email": "info@yard.nl",
+			"email": "owc@yard.nl",
 			"homepage": "https://www.yard.nl"
 		}
 	],
