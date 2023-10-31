@@ -1,0 +1,48 @@
+publiccodeYmlVersion: '0.2'
+
+name: 'plugin-owc-openpdd-sanitizer'
+applicationSuite: 'OpenWebconcept'
+url: 'https://github.com/OpenWebconcept/plugin-owc-openpdd-sanitizer'
+releaseDate: '2023-10-31'
+
+platforms:
+  - 'web'
+
+categories:
+  - 'application-development'
+
+developmentStatus: 'development'
+
+softwareType: 'softwareAddon'
+
+description:
+	en:
+		genericName: 'OWC OpenPDD Sanitizer'
+  	shortDescription: 'WordPress plugin for sanitizing a OpenPDD installation with security best practices'
+  	longDescription: 'WordPress plugin for sanitizing a OpenPDD installation with security best practices'
+	nl:
+		genericName: 'OWC OpenPDD Sanitizer'
+		shortDescription: 'WordPress plugin voor het opschonen van OpenPDD installatie met best practices op het gebied van beveiliging'
+  	longDescription: 'WordPress plugin voor het opschonen van OpenPDD installatie met best practices op het gebied van beveiliging'
+
+legal:
+  license: 'EUPL-1.2'
+  repoOwner: 'Yard | Digital Agency'
+
+dependsOn:
+  open:
+    - name: 'WordPress'
+    - versionMin: 6.0.0
+
+intendedAudience:
+  countries:
+    - nl
+  scope:
+    - government
+
+maintenance:
+  contractors:
+    - name: 'Yard | Digital Agency'
+      website: 'https://www.yard.nl'
+      email: 'owc@yard.nl'
+  type: 'contract'
