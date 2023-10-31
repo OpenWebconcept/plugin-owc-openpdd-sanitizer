@@ -2,20 +2,17 @@
 
 Sanitize your [OpenPDD](https://github.com/OpenWebconcept/openpdd) for security.
 
-This plugin does:
+**This plugin does:**
 
 - Enforces a strict CSP policy
+- Upgrades jQuery and jQuery UI to their latest versions
 - Adds a CSP header to /wp-admin/admin-ajax.php
-- De-registers jQuery migrate and upgrades jQuery / jQuery UI to their latest versions
-- Adds SRI attributes and cross-origin on the jQuery / jQuery UI cdn scripts
+- Adds SRI and cross-origin attributes to the jQuery and jQuery UI cdn scripts
+- De-registers jQuery migrate
 
-This plugin does not:
+**This plugin does not:**
 
-- Add CSP headers to every asset on your site (you should take care of this)
-
-## 🚨 In progress
-
-This repository is being developed and is not ready for production.
+- Add CSP headers to every asset on your site
 
 ## Environment variables
 
